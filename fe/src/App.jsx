@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Lock } from 'lucide-react';
 
+
+
 function App() {
   const [email, setEmail] = useState('');
   const [cardNumber, setCardNumber] = useState('');
@@ -24,8 +26,8 @@ function App() {
             <ArrowLeft size={20} />
           </button>
           <div className="ml-4 flex items-center">
-            <img src="https://via.placeholder.com/24" alt="Logo" className="w-6 h-6 rounded-full" />
-            <span className="ml-2 font-medium">PayGet</span>
+          <img src="/logo.svg" className="w-6 h-6 rounded-full" />
+            <span className="ml-2 font-medium">WePay</span>
             <span className="ml-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded">TEST MODE</span>
           </div>
         </div>
@@ -36,8 +38,8 @@ function App() {
           <div>
             <div className="mb-6">
               <h2 className="text-xl text-gray-700">One-time Donation</h2>
-              <div className="text-3xl font-bold mt-1">500</div>
-              <div className="text-gray-500 text-sm">Minimum Transaction - 500</div>
+              <div className="text-3xl font-bold mt-1">$ 5.00</div>
+              <div className="text-gray-500 text-sm">Minimum Transaction - $ 5.00</div>
             </div>
           </div>
 
@@ -143,7 +145,7 @@ function App() {
                   />
                   <div>
                     <div className="text-sm text-gray-700">Securely save my information for 1-click checkout</div>
-                    <div className="text-xs text-gray-500">Pay faster on PayGet and thousands of sites.</div>
+                    <div className="text-xs text-gray-500">Pay faster on WePay and thousands of sites.</div>
                   </div>
                 </div>
 
