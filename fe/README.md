@@ -1,8 +1,12 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website is designed to facilitate one-time donations, providing users with a seamless and secure way to contribute funds. It supports various payment methods, including G Pay and card payments.
 
-Currently, two official plugins are available:
+Utilized modern frontend technologies (e.g., HTML, CSS, JavaScript, React, Vite,Tailwindcss) to build the interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensured compatibility with various browsers and devices.
+
+---
+## UI
+
+![image alt](https://github.com/afadnan/paymentGateway/blob/main/fe/fontend.png?raw=true)
