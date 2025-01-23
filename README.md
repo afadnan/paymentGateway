@@ -35,7 +35,6 @@ ISO 8583 is an international standard for financial transaction card originated 
 A payment gateway like Stripe or Razorpay allows merchants such as e-commerce websites to accept payments from customers without the hassle of integrating with multiple payment processors. Payment gateways are a critical component of any e-commerce website.
 
 
-![Example Payment Gateway interface](media/01-demo.png)
 
 A sample flow of a payment gateway is as follows:
 1. The customer enters their credit card details on the merchant's website.

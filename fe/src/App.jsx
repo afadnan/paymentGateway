@@ -12,7 +12,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle payment submission
+    
   };
 
   return (
@@ -25,7 +25,7 @@ function App() {
           </button>
           <div className="ml-4 flex items-center">
             <img src="https://via.placeholder.com/24" alt="Logo" className="w-6 h-6 rounded-full" />
-            <span className="ml-2 font-medium">Pasha</span>
+            <span className="ml-2 font-medium">PayGet</span>
             <span className="ml-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded">TEST MODE</span>
           </div>
         </div>
@@ -36,8 +36,8 @@ function App() {
           <div>
             <div className="mb-6">
               <h2 className="text-xl text-gray-700">One-time Donation</h2>
-              <div className="text-3xl font-bold mt-1">$5.00</div>
-              <div className="text-gray-500 text-sm">One-time Donation - 5</div>
+              <div className="text-3xl font-bold mt-1">500</div>
+              <div className="text-gray-500 text-sm">Minimum Transaction - 500</div>
             </div>
           </div>
 
@@ -81,10 +81,9 @@ function App() {
                       required
                     />
                     <div className="absolute right-2 top-2 flex gap-1">
-                      <img src="https://js.stripe.com/v3/fingerprinted/img/visa-729c05c240c4bdb47b03ac81d9945bfe.svg" className="h-6" alt="Visa" />
+                      <img src="https://js.stripe.com/v3/fingerprinted/img/visa-729c05c240c4bdb47b03ac81d9945bfe.svg" className="h-6 " alt="Visa" />
                       <img src="https://js.stripe.com/v3/fingerprinted/img/mastercard-4d8844094130711885b5e41b28c9848f.svg" className="h-6" alt="Mastercard" />
-                      <img src="https://js.stripe.com/v3/fingerprinted/img/amex-a49b82f46c5cd6a96a6e418a6ca1717c.svg" className="h-6" alt="Amex" />
-                    </div>
+                      </div>
                   </div>
                   <div className="grid grid-cols-2 gap-4 mt-4">
                     <input
@@ -120,7 +119,7 @@ function App() {
                 <div>
                   <label className="block text-sm text-gray-600 mb-1">Country or region</label>
                   <select className="w-full px-3 py-2 border border-gray-300 rounded-md bg-white">
-                    <option>United Kingdom</option>
+                    <option>India</option>
                   </select>
                 </div>
 
@@ -144,7 +143,7 @@ function App() {
                   />
                   <div>
                     <div className="text-sm text-gray-700">Securely save my information for 1-click checkout</div>
-                    <div className="text-xs text-gray-500">Pay faster on Pasha and thousands of sites.</div>
+                    <div className="text-xs text-gray-500">Pay faster on PayGet and thousands of sites.</div>
                   </div>
                 </div>
 
